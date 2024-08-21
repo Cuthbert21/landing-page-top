@@ -14,6 +14,17 @@ body{
     justify-content: space-around;
 }
 
+.logo {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    align-items: flex-end;
+}
+
 a {
     text-decoration: none; 
     color: white;
@@ -24,4 +35,6 @@ a {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;  
+    gap: 20px;
   }
