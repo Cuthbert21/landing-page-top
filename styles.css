@@ -82,3 +82,23 @@ a {
     height: 300px;
     margin-top: 50px;
   }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-text {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-image{
+    width: 100px;
+    height: 100px;
+  }
