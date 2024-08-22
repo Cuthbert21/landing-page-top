@@ -46,18 +46,22 @@ a {
     justify-content: center;
     flex-direction: column;
     margin-right: 155px;
+    gap: 20px;
   }
 
   .button-top {
     background-color: #3882F6;
     color: white;
-    border-radius: 4px;
+    font-weight: 700;
+    border-radius: 8px;
     width: 100px;
+    padding: 8px;
   }
 
   .first {
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
   }
 
   .hero-main-text {
@@ -76,5 +80,5 @@ a {
   .main-image{
     width: 500px;
     height: 300px;
-    margin-top: 25px;
+    margin-top: 50px;
   }
