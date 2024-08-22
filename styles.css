@@ -3,6 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    /* background-color: #1f2937; */
 }
 
 .header, .first {
@@ -12,6 +13,7 @@ body{
 .header {
     display:flex;
     justify-content: space-around;
+    padding: 16px;
 }
 
 .logo {
@@ -43,6 +45,7 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-right: 155px;
   }
 
   .button-top {
@@ -73,4 +76,5 @@ a {
   .main-image{
     width: 500px;
     height: 300px;
+    margin-top: 25px;
   }
