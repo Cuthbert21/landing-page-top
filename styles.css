@@ -49,7 +49,7 @@ a {
     gap: 20px;
   }
 
-  .button-top {
+  button {
     background-color: #3882F6;
     color: white;
     font-weight: 700;
@@ -147,5 +147,44 @@ a {
     font-weight: 800;
     font-size: 22px;
     padding-left: 550px;
+  }
+
+  .fourth {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .cta-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 75px;
+    padding-right: 100px;
+  }
+
+  .call-to-action {
+    width: 800px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cta-top-text {
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+  }
+
+  .cta-bottom-text {
+    color: white;
+  }
+
+  .button-bottom {
+    height: 40px;
+    border-color: white;
 
   }
