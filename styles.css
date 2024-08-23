@@ -124,3 +124,28 @@ a {
     padding-top: 10px;
     text-align: center;
   }
+
+  .third {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .quote {
+    display: flex;
+    width: 900px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+  }
+
+  .author {
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 22px;
+    padding-left: 550px;
+
+  }
